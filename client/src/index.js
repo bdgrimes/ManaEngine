@@ -28,7 +28,7 @@ const routing = (
             <NavBar />
             <Switch>
                 <Route exact path='/' component={App} />
-                <Route exact path='/attendence' component={AttendenceTracking} />
+                <Route exact path='/attendence-tracking' component={AttendenceTracking} />
                 <Route exact path='/dashboard' component={DashBoard} />
                 <Route exact path='/event-calendar' component={EventCalendar} />
                 <Route exact path='/guild-roster' component={GuildRoster} />
