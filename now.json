@@ -1,4 +1,5 @@
 {
+    "name" : "ManaEngine",
     "builds": [
         {
             "src": "/client/package.json"
