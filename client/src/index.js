@@ -10,7 +10,9 @@ import App from './app/App';
 const routing = (
     <Router>
         <NavBar />
-        <Route path="/" component={App} />
+        <Switch>
+            <Route path="/" component={App} />
+        </Switch>
     </Router>
 )
 
