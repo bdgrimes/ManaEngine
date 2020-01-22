@@ -2,8 +2,8 @@
     "name" : "ManaEngine",
     "builds": [
         {
-            "src": "/client/package.json"
-            
+            "src": "/client/package.json",
+            "use": "@now/static"
         }
     ]
 }
